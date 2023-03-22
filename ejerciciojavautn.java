@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
@@ -10,6 +12,9 @@
  */
 public class ejerciciojavautn {
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
 
         int numInicio;
@@ -66,9 +71,9 @@ public class ejerciciojavautn {
         double ingMensual = 489.083;
         int vehNuevo = 3;
         int inmuebles = 3;
-        var solvencia = true;
+        boolean solvencia = true;
 
-        if ((ingMensual >= 489.083) || (vehNuevo >= 3) || (inmuebles >= 3) || (solvencia = true)) {
+        if ((ingMensual >= 489.083) || (vehNuevo >= 3) || (inmuebles >= 3) || (solvencia)) {
             System.out.println("El ciudadano pertenece al sector de ingresos altos");
         }
     }
